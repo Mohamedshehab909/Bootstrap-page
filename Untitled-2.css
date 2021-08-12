@@ -1,0 +1,301 @@
+.upper-bar {
+    background-color: #08526d;
+    padding: 10px;
+    color: white;
+}
+
+/*-------------------navbar-----------*/
+.nav-link {
+    color: #08526d !important;
+    font-size: 20px;
+}
+
+.active .nav-link {
+    color: #ec1c23 !important
+}
+
+.mo,
+.sh {
+    font-size: 35px;
+    /*     font-family: 'Righteous', cursive;*/
+    font-family: 'Nosifer', cursive;
+}
+
+.mo {
+    color: #08526d
+}
+
+.sh {
+    color: #ec1c23
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    /*    font-family: 'Nosifer', cursive;*/
+}
+
+/*---------------------------end nav----------------------*/
+/*--------------------------slider----------------------------*/
+.slid1 {
+    background-image: url(image/aerial-desk-device-1011329.jpg);
+    background-size: cover;
+}
+
+.slid2 {
+    background-image: url(image/background-balance-commerce-5838463.jpg);
+    background-size: cover;
+}
+
+.slid3 {
+    background-image: url(image/analysis-banking-businesswoman-1451448.jpg);
+    background-size: cover;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 20, 20, 0.6);
+    color: white
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5px;
+    font-family: 'Righteous', cursive;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.back {
+    background-color: #ec1c23
+}
+
+/*-------------------------------------------------------------------*/
+/*---------------------------------features---------------------------------------*/
+.icon {
+    color: white;
+    background-color: #ec1c23;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%
+}
+
+.layout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.layout h3 {
+    color: #08526d;
+    font-family: 'Righteous', cursive;
+}
+
+.layout p {
+    color: gray;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------------overview------------------------------*/
+.overview {
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+.overview p {
+
+    color: gray;
+
+}
+
+.overview h4 {
+    color: gray;
+    letter-spacing: 2px
+}
+
+.view {
+    background-color: #ec1c23;
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------------work------------------------------*/
+.work p {
+
+    color: gray;
+
+}
+
+.work {
+    padding-bottom: 50px;
+}
+
+.work ul {
+    margin-bottom: 50px;
+}
+
+.work ul li {
+    border: 2px solid #08526d;
+    color: #08526d;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px;
+    transition: 1s;
+    font-family: 'Righteous', cursive;
+}
+
+.work ul li.active,
+.work ul li:hover {
+    color: white;
+    background-color: #ec1c23
+}
+
+.work .imgs .row {
+    margin: 0
+}
+
+.work .imgs .row .col-md-6 {
+    padding: 0;
+
+}
+
+/*--------------------------------------------------------------------*/
+/*-------------------------------------------latest-------------------------------------------------------*/
+.cardp {
+    color: gray;
+}
+
+.cardti {
+    color: #08526d;
+    font-family: 'Righteous', cursive;
+}
+
+.latestpost .row .card a {
+    background-color: #ec1c23;
+    color: white
+}
+
+.latestpost {
+    padding: 50px;
+}
+
+/*-----------------latest2--------------------------------------------------------------------*/
+.latestpost2 {
+    background-color: #f7f7f7;
+    padding: 50px 0px 50px 0px
+}
+
+.cardti2 {
+    color: #08526d;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.card-body h6 {
+    color: gray;
+
+}
+
+.card2 {
+    padding: 0
+}
+
+.card2p {
+    color: #08526d;
+    font-size: 30px;
+    background-color: #F7F7F7;
+    padding: 5px;
+}
+
+.card3p {
+    font-size: 30px;
+    color: white;
+    background-color: #ec1c23;
+    padding: 5px;
+}
+
+.year {
+    font-size: 15px;
+}
+
+.list-group li {
+    border: 0
+}
+
+.view2 {
+    background-color: #08526d;
+}
+
+.cardcorporate {
+    position: relative;
+    top: -25px
+}
+
+/*---------------------------------------------------*/
+/*-------------why choose us---------*/
+.cols .row {
+    margin: 0
+}
+
+.cols .col-md-6 {
+    padding: 0;
+
+}
+
+.coltext {
+    background-color: #08526d;
+}
+
+.textwhy {
+    color: white;
+    padding: 20px 0px 0px 30px;
+
+}
+
+/*---------------------stats----------------------*/
+.stats {
+    padding: 60px 0px 60px 0px;
+}
+
+.stats .row h1 {
+    color: #08526d;
+    font-size: 40px
+}
+
+.stats .row i {
+    color: #08526d;
+}
+
+.stats a {
+    color: #ec1c23
+}
+
+/*-----------------------------------------------------*/
+/*--------------------------------contact us---------------*/
+.contact {
+    background-color: #ec1c23;
+    color: white;
+    padding: 70px 0px;
+    font-family: 'Righteous', cursive;
+
+
+}
+
+.contact a {
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------------------*/
+/*---------------------footer------------------------------------------*/
+.footer {
+    padding: 10px 0px;
+    color: #08526d
+}
+
+/*---------------------------------------------------------*/
